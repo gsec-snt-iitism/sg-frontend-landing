@@ -18,7 +18,7 @@ body, html {
 .button-div {
     position: absolute;
     bottom: 40px;
-    left: 38%;
+    left: 41%;
 }
 
 .proceed-button {
@@ -29,7 +29,7 @@ body, html {
 
 .download-button {
     margin: 5% 3% 5% 0;
-    min-width: 180px;
+    min-width: 250px;
 }
 
 button.btn.btn-dark.btn-lg.download-button:hover {
@@ -38,11 +38,29 @@ button.btn.btn-dark.btn-lg.download-button:hover {
     border-color: #fef9fa !important;
 }
 
+.ism-logo {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    opacity: 0.7;
+}
+
+.sg-logo {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    opacity: 0.7;
+}
+
 @media only screen and (max-width: 600px) {
     .button-div {
         position: absolute;
         bottom: 40px;
-        left: 10px;
+        left: 65px;
     }
 
     .proceed-button {
@@ -52,6 +70,18 @@ button.btn.btn-dark.btn-lg.download-button:hover {
 
     .download-button {
         margin: 5% 3% 5% 0;
-        min-width: 180px;
+        min-width: 250px;
+    }
+
+    .ism-logo {
+        width: 75px;
+        height: auto;
+        top: 35px;
+        left: 30px;
+    }
+    .sg-logo {
+        width: 75px;
+        height: auto;
+        right: 30px;
     }
 }
