@@ -1,0 +1,57 @@
+body, html {
+    font-family:
+        -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
+        Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    line-height: 1.4;
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("images/01.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-div {
+    position: absolute;
+    bottom: 40px;
+    left: 38%;
+}
+
+.proceed-button {
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    min-width: 180px;
+}
+
+button.btn.btn-dark.btn-lg.download-button:hover {
+    color: #212529 !important;
+    background-color: #fef9fa !important;
+    border-color: #fef9fa !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .button-div {
+        position: absolute;
+        bottom: 40px;
+        left: 10px;
+    }
+
+    .proceed-button {
+        margin: auto;
+        text-align: center;
+    }
+
+    .download-button {
+        margin: 5% 3% 5% 0;
+        min-width: 180px;
+    }
+}
